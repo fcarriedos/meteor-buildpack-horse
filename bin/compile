@@ -13,7 +13,7 @@ echo "First argument: $1"
 echo ""
 echo ""
 echo " *******************************"
-find .meteor/ -maxdepth 2
+find "$1/.meteor" -maxdepth 2
 echo " *******************************"
 echo ""
 echo ""
