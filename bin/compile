@@ -4,6 +4,8 @@
 # Heroku buildpack for Meteor
 #
 
+echo "Invoked with $@"
+
 # fail fast.
 set -e
 # debug verbosely.
