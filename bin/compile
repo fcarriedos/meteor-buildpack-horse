@@ -4,19 +4,21 @@
 # Heroku buildpack for Meteor
 #
 
-echo "Invoked with $@"
+################ Debugging log lines ###############
+# echo "Invoked with $@"
 
-echo "The command: $0"
+# echo "The command: $0"
 
-echo "First argument: $1"
+# echo "First argument: $1"
 
-echo ""
-echo ""
-echo " *******************************"
-find "$1/.meteor/" -maxdepth 3
-echo " *******************************"
-echo ""
-echo ""
+# echo ""
+# echo ""
+# echo " *******************************"
+# find "$1/.meteor/" -maxdepth 3
+# echo " *******************************"
+# echo ""
+# echo ""
+################ Debugging log lines ###############
 
 
 # fail fast.
