@@ -10,7 +10,14 @@ echo "The command: $0"
 
 echo "First argument: $1"
 
-tree "$1"
+echo ""
+echo ""
+echo " *******************************"
+find "$1"
+echo " *******************************"
+echo ""
+echo ""
+
 
 # fail fast.
 set -e
