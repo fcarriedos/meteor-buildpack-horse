@@ -158,7 +158,7 @@ if [ -z "$SERVER_ONLY_FLAG" ]; then
 fi
 
 # Installing specific packages for this project, not available on NPM
-meteor add littledata:synced-cron
+METEOR add littledata:synced-cron
 
 # Identify the npm/node to use. We need to copy the node binary out to get the
 # correct version in the built slug (e.g. 0.10.x for Meteor<1.4, 4.x for
